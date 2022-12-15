@@ -1,7 +1,7 @@
 FROM java:7
 
-COPY JavaHelloWorld.java .
+COPY HelloWorld.java .
 
-RUN javac JavaHelloWorld.java
+RUN javac HelloWorld.java
 
-CMD ["java", "JavaHelloWorld"]
+CMD ["java", "HelloWorld"]
